@@ -1,0 +1,3 @@
+[submodule "Vectin/vendor/spdlog"]
+	path = Vectin/vendor/spdlog
+	url = https://github.com/gabime/spdlog

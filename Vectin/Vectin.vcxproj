@@ -14,9 +14,12 @@
     <ClInclude Include="src\Vectin.h" />
     <ClInclude Include="src\Vectin\Application.h" />
     <ClInclude Include="src\Vectin\Core.h" />
+    <ClInclude Include="src\Vectin\EntryPoint.h" />
+    <ClInclude Include="src\Vectin\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Vectin\Application.cpp" />
+    <ClCompile Include="src\Vectin\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -66,6 +69,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PreprocessorDefinitions>VN_PLATFORM_WINDOWS;VN_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Vectin\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,6 +85,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PreprocessorDefinitions>VN_PLATFORM_WINDOWS;VN_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Vectin\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
