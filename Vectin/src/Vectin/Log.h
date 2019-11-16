@@ -26,6 +26,8 @@ namespace Vectin {
 
 }
 
+#pragma region MacroLoggingFunctions
+
 #define VN_CORE_ERROR(...)		::Vectin::Log::getCoreLogger()->error(__VA_ARGS__)
 #define VN_CORE_INFO(...)		::Vectin::Log::getCoreLogger()->info(__VA_ARGS__)
 #define VN_CORE_TRACE(...)		::Vectin::Log::getCoreLogger()->trace(__VA_ARGS__)
@@ -39,3 +41,5 @@ namespace Vectin {
 #define VN_CLIENT_WARN(...)		::Vectin::Log::getCoreLogger()->warn(__VA_ARGS__)
 #define VN_CLIENT_CRITICAL(...) ::Vectin::Log::getCoreLogger()->critical(__VA_ARGS__)
 #define VN_CLIENT_DEBUG(...)	::Vectin::Log::getCoreLogger()->debug(__VA_ARGS__)
+
+#pragma endregion
