@@ -1,2 +1,2 @@
 # Vectin
-Vecting Engine
+Vectin Engine
