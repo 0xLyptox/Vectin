@@ -1,3 +1,4 @@
+#include <vnpch.h>
 #include "Application.h"
 
 namespace Vectin {

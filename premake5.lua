@@ -31,6 +31,9 @@ project "Vectin"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "vnpch.h"
+	pchsource "Vectin/src/vnpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

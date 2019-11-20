@@ -4,6 +4,9 @@
     <Filter Include="Vectin">
       <UniqueIdentifier>{AE9AD6D7-9A3C-01AE-83F7-14026F3888FE}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Vectin\Events">
+      <UniqueIdentifier>{D2B659E5-3E77-D51B-07B2-1E9973311AF8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Vectin.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\Vectin\EntryPoint.h">
       <Filter>Vectin</Filter>
     </ClInclude>
+    <ClInclude Include="src\Vectin\Events\ApplicationEvent.h">
+      <Filter>Vectin\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectin\Events\Event.h">
+      <Filter>Vectin\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectin\Events\KeyEvent.h">
+      <Filter>Vectin\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectin\Events\MouseEvent.h">
+      <Filter>Vectin\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Vectin\Log.h">
       <Filter>Vectin</Filter>
     </ClInclude>
-    <ClInclude Include="src\Vectin\Events\Event.h" />
     <ClInclude Include="src\vnpch.h" />
-    <ClInclude Include="src\Vectin\Events\MouseEvent.h" />
-    <ClInclude Include="src\Vectin\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Vectin\Application.cpp">

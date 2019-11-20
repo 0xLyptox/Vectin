@@ -1,3 +1,4 @@
+#include <vnpch.h>
 #include "Log.h"
 
 namespace Vectin {
