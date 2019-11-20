@@ -19,6 +19,10 @@
     <ClInclude Include="src\Vectin\Log.h">
       <Filter>Vectin</Filter>
     </ClInclude>
+    <ClInclude Include="src\Vectin\Events\Event.h" />
+    <ClInclude Include="src\vnpch.h" />
+    <ClInclude Include="src\Vectin\Events\MouseEvent.h" />
+    <ClInclude Include="src\Vectin\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Vectin\Application.cpp">
@@ -27,5 +31,6 @@
     <ClCompile Include="src\Vectin\Log.cpp">
       <Filter>Vectin</Filter>
     </ClCompile>
+    <ClCompile Include="src\vnpch.cpp" />
   </ItemGroup>
 </Project>

@@ -151,11 +151,16 @@
     <ClInclude Include="src\Vectin\Application.h" />
     <ClInclude Include="src\Vectin\Core.h" />
     <ClInclude Include="src\Vectin\EntryPoint.h" />
+    <ClInclude Include="src\Vectin\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Vectin\Events\Event.h" />
+    <ClInclude Include="src\Vectin\Events\MouseEvent.h" />
     <ClInclude Include="src\Vectin\Log.h" />
+    <ClInclude Include="src\vnpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Vectin\Application.cpp" />
     <ClCompile Include="src\Vectin\Log.cpp" />
+    <ClCompile Include="src\vnpch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,11 +1,14 @@
 #include <Vectin.h>
+#include <iostream>
+
+namespace Vectin {
+	class Sandbox : public Application {
+
+	};
 
 
 
-class Sandbox : public Vectin::Application {
-
-};
-
-Vectin::Application* Vectin::createApplication() {
-	return new Sandbox();
+	Application* createApplication() {
+		return new Sandbox();
+	}
 }
